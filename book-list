@@ -1,0 +1,32 @@
+/* Book List Table */
+.table {
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Action Buttons */
+.btn-warning, .btn-danger, .btn-success {
+    margin: 0 5px;
+    transition: transform 0.2s;
+}
+
+.btn-warning:hover, .btn-danger:hover, .btn-success:hover {
+    transform: scale(1.1);
+}
+
+/* Add Book Button */
+.btn-primary {
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
